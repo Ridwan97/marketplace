@@ -1,0 +1,147 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.slides {
+  opacity: 0.8;
+}
+.slider h3,
+.slider h5,
+.partners h3 {
+  text-shadow: 1px 1px 3px  rgba(0,0,0,0.5); 
+}
+.cover {
+  position: relative;
+}
+.gambar:hover{
+  opacity: 0.8;
+}
+.gambar{
+  width: 100%;
+  margin:auto;
+  display: block;
+}
+
+#cari {
+  position: absolute;
+  left: 15%;
+  top: 40%;
+}
+nav{
+  background-color: transparent !important;
+}
+.nav-wrapper a{
+  color: #aaa !important;
+} 
+
+.parallax-container{
+  height: 20%;
+}
+
+.logo{
+  height: 60px;
+  width: 100px;
+}
+.parallax img{
+  filter: grayscale(1);
+  opacity: 0.5 !important;
+}
+
+.partners img{
+  max-width: 150px;
+  filter: drop-shadow(1px 1px 1px rgba(o,o,o,0,8));
+}
+
+p #co{
+  text-align: justify;
+}
+h6{
+  text-align: justify;
+}
+footer.page-footer {
+  margin: 0;
+}
+section{
+  padding: 20px 0;
+}
+#logo_bawah{
+  height: 30px;
+  width: 50px;
+}
+#gambarr{
+  width: 500px;
+  height: 500px;
+}
+.harga{
+  color: blue;
+}
+.card-reveal p {
+  font-size: 12pt;
+}
+
+#produk {
+  float: right;
+  vertical-align: text-bottom;
+
+}
+.deskripsi {
+  font-size: 10pt;
+  color: black;
+}
+
+
+

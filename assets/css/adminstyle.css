@@ -1,0 +1,119 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ #wrapper {
+    width: 100%;
+    background:#008080;
+}
+
+#page-wrapper {
+    padding: 55px 55px;
+    min-height: 600px;
+    background:#F3F3F3;
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1200px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    color: #00F;
+}
+h4 {
+    padding-top:10px;
+}
+
+
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+
+.user-image {
+max-height:170px;
+max-width:170px;
+}
+
+.navbar-cls-top .navbar-brand {
+	color: #fff;
+background: #008080;
+width: 260px;
+text-align: center;
+height: 60px;
+font-size: 30px;
+font-weight: 700;
+
+}
+.navbar-cls-top {
+	background:#4D4D4D;
+	border-bottom:none;
+	
+}
+.navbar-cls-top .navbar-brand:hover {
+
+background: #008080 ;
+color:#fff;
+
+}
+
+.navbar-header {
+background: #008080 ;
+}
+.navbar-default .sidenav-trigger:hover, .navbar-default .sidenav-trigger:focus {
+background-color: #B40101;
+}
+.navbar-default .sidenav-trigger {
+border-color: #fff;
+}
+
+.navbar-default .sidenav-trigger .icon-bar {
+background-color: #FFF;
+}
+.nav > li > a > i {
+    margin-right:10px;
+}
+/*==============================================
+    UI ELEMENTS STYLES     
+    =============================================*/
+.btn-circle {
+width: 50px;
+height: 50px;
+padding: 6px 0;
+ -webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+text-align: center;
+font-size: 12px;
+line-height: 1.428571429;
+}
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+        margin: 0 0 0 300px;
+        padding: 15px 30px;
+        min-height: 1200px;
+		
+    }
+	
+	
+
+   .navbar {
+ border-radius: 0px; 
+}
+   
+}
+
+
